@@ -2,18 +2,21 @@
 
 * Build Identity Server 
 * Client credentials (ex. Windows Client Apps, Mobile Apps, Console Applications.,)
-* 
 
-
-  * Aws
-  * Azure
-  * GCP
+  Indentity Server EndPoint
+  ClientId
+  Client Screct
   
-  ## Regions:
-   * Azure : 42
-   
- # Note:
- * Availability zone will be picked by Azure not by us.
- * Azure has pair of region for high speed connection and high availability 
+  Username,
+  Password
+  Token Type
+  
+  ## Build Identity Server
+  
+  ### Packages
+  * Install-Package IdentityServer4
+https://medium.com/@robert.broeckelmann/when-to-use-which-oauth2-grants-and-oidc-flows-ec6a5c00d864
+
+http://docs.identityserver.io/en/latest/quickstarts/2_resource_owner_passwords.html
  
  
